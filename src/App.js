@@ -202,6 +202,7 @@ const App = () => {
             type="text"
             id="message"
             value={messageValue}
+            className="text-black rounded-md p-5"
             onChange={e => setMessageValue(e.target.value)} />)
         }
         {/* 履歴を表示する */}
